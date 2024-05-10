@@ -2,9 +2,9 @@ import React from 'react'
 import '../css/new.css'
 
 
-const SecondLandingText = () => {
+const SecondLandingText = ({data}) => {
   return (
-    <div className='secondlandingtext'>World</div>
+    <div className='secondlandingtext'>World ({data})</div>
   )
 }
 
